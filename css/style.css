@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+
+.sidebar {
+    width: 30%;
+    background: #f0f0f0;
+    overflow-y: auto;
+}
