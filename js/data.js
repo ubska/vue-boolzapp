@@ -1,7 +1,8 @@
-contacts: [
+
+const contacts = [
     {
         name: 'Michele',
-        avatar: './img/avatar_1.png',
+        avatar: 'https://avatar.iran.liara.run/public/39',
         visible: true,
         messages: [
             {
@@ -160,5 +161,5 @@ contacts: [
             }
         ],
     }
-]
+];
 

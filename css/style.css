@@ -14,12 +14,44 @@ body {
 
 .sidebar {
     width: 30%;
-    background: #f0f0f0;
+    background: #ffffff;
     overflow-y: auto;
+}
+.sidebar input {
+    width: 100%;
+    padding: 10px;
+}
+.user{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20; */
+}
+
+img {
+    width: 45px;
+    margin: 0 5px;
+    border-radius: 25px;
 }
 
 .chat{
     width: 70%;
     display: flex;
     flex-direction: column;
+    background-image: url('https://cdn.wallpapersafari.com/68/67/U1SFl7.jpg');
 }
+
+
+/* icone */
+.fa-solid{
+    color: #b1b1b1;
+}
+
+
+.user_row{
+    display: inline-block;
+}
+
